@@ -1,0 +1,26 @@
+# This is Git's per-user configuration file.
+[user]
+	name = asirago
+	email = 40822894+asirago@users.noreply.github.com
+ [init]
+	defaultBranch = main
+[alias]
+    s = status
+    a = add
+    f = fetch
+    bv = branch -v
+    rv = remote -v
+    co = checkout
+    cob = checkout -b
+    rao = remote add origin
+    br = branch 
+    c = commit
+    graph = log --all --graph --decorate --oneline
+    sco = sparse-checkout
+    sh = stash
+    shp = stash pop
+    shs = stash save
+    shl = stash list
+[core]
+	excludesfile = ~/.gitignore_global
+

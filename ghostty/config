@@ -1,0 +1,23 @@
+maximize = true
+window-decoration = none
+background = #1E1E2E
+foreground = #CDD6F4
+window-padding-x = 5
+window-padding-y = 5
+background-opacity = 1
+selection-background = #33467c
+selection-foreground = #c0caf5
+cursor-color = #FF6DBF
+cursor-text = #FFFFFF
+mouse-hide-while-typing = true
+confirm-close-surface = false
+font-family = JetBrainsMono Nerd Font 
+font-size = 16
+keybind = ctrl+tab=esc:[27;5;9~
+keybind = ctrl+shift+tab=esc:[27;6;9~
+keybind = alt+j=esc:B
+keybind = alt+k=esc:F
+keybind = alt+l=esc:OF
+keybind = alt+h=esc:OH
+keybind = alt+d=esc:d
+font-feature = -calt
